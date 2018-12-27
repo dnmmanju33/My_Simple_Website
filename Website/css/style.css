@@ -1,0 +1,190 @@
+body {
+    background:#F4F4F4;
+    margin:0; 
+    
+}
+.link-title{
+    text-decoration: none;
+    font-size: 34px;
+    
+    color: green;
+}
+
+
+.page-heading{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background:#FFF;
+    box-shadow: 0px 1px 2px 2px;
+    border: solid black;
+}
+
+.header{
+    
+    padding:45px 0 20px 40px;
+    
+    
+}
+
+.menu{
+    
+    background: #3b7868;
+    padding: 6px 0 6px 40px;
+    
+}
+
+.menu a {
+    
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow","Myiad pro";
+}
+
+.menu a :{
+    
+    color: #ecf3f3;
+    
+}
+
+aside {
+    
+    float:left;
+    width: 120px;
+    padding: 40px 0 0  40px;
+}
+
+h1{
+    margin: 0px;
+    color: #868740;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myiad pro";
+    font-weight: normal;
+}
+
+h2{
+    
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+    
+}
+
+
+.main{
+    margin: 0 0 0 189px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-13px;
+    line-height:18px;
+    text-emphasis: justify;
+}
+
+/*.main a:hover {
+    color: #444444;*/
+    
+}
+
+
+
+#home-image img {
+    
+   
+
+}
+
+
+
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 12px;
+}
+
+.separator {
+    color: bold black;
+    font-size: 16px;
+}
+
+
+
+
+/***********about page styles****************/
+
+#about-page #home-image img{
+    width: 40%
+    height: 30%
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+        
+    
+}
+
+
+#about-page .description {
+    clear: both;
+    
+}
+
+
+
+
+
+
+/*****************contact page*************************/
+
+#contact #form{
+    width: 500px;
+   /**** border: 3px solid cadetblue;***/
+    padding: 20px 10px 10px 20px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px 4px;
+    border-radius: 15px;
+}
+
+
+
+#contact #form input{
+    width: 100%;
+    border-radius: 6px;
+    height: 20px;
+    background: #D6D6D6;
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 6px;
+    background: #D6D6D6;    
+    
+}
+
+#contact #form #submit{
+    text-align: center;
+    background: rgb(60,120,135)
+    
+}
